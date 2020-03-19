@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="400dp">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_gravity="center"
+            app:cardElevation="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            app:cardCornerRadius="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="400dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_gravity="center_horizontal"
+                        android:layout_centerInParent="true"
+                        android:paddingTop="30dp"
+                        android:paddingLeft="3dp"
+                        android:id="@+id/docSelect"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        tools:ignore="MissingConstraints,RtlSymmetry" />
+                    <FrameLayout
+                        app:layout_constraintTop_toBottomOf="@+id/docSelect"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        tools:ignore="MissingConstraints">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:paddingBottom="10dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_gravity="center"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <LinearLayout
+                                    android:gravity="center"
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+
+                                        android:textStyle="bold"
+                                        android:textSize="15dp"
+                                        android:textColor="@color/warning"
+                                        android:text="2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                    <TextView
+                                        android:paddingLeft="5dp"
+                                        android:textStyle="bold"
+                                        android:textSize="15dp"
+                                        android:textColor="@color/black"
+                                        android:text="Of 4"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"/>
+                                </LinearLayout>
+                                <TextView
+
+                                    android:layout_marginTop="5dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:text="@string/scroll_to_select"
+                                    android:gravity="center"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                        <ImageView
+                            android:scaleType="fitXY"
+                            android:src="@drawable/curve1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+                    </FrameLayout>
+
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+</FrameLayout>

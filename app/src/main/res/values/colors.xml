@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="defaults">#234f69</color>
+    <color name="text_color">#626364</color>
+    <color name="light_grey">#d3d3d3</color>
+    <color name="color_table_1">#007fe4</color>
+    <color name="color_table_2">#5B399E</color>
+    <color name="color_table_3">#FF9923</color>
+    <color name="red">#e63c23</color>
+    <color name="color_table_5">#f03158</color>
+    <color name="color_table_6">#1bc1ed</color>
+    <color name="color_table_7">#88d533</color>
+    <color name="flutter_blue">#00acee</color>
+    <color name="color_table_1_light">#cce5fa</color>
+    <color name="color_table_2_light">#ded9f1</color>
+    <color name="color_table_3_light">#ffeacc</color>
+    <color name="color_table_4_light">#fad8d3</color>
+    <color name="color_table_5_light">#fcd6de</color>
+    <color name="color_table_6_light">#d1f3fb</color>
+    <color name="color_table_7_light">#e7f7d6</color>
+    <color name="black">#000000</color>
+    <color name="inactive">#B7B7B8</color>
+    <color name="active">#4D4D4F</color>
+    <color name="google_blue">#4285F4</color>
+    <color name="warning">#fa643b</color>
+</resources>

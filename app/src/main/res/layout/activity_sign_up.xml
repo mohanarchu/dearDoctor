@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/backgroud4"
+    android:id="@+id/signup_layout"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Register.SignUp">
+    <RelativeLayout
+        android:layout_weight="0.1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="@string/welcome_to"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_weight="0.9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp">
+                            <ImageView
+                                android:layout_marginTop="40dp"
+                                android:tint="@color/black"
+
+                                android:layout_gravity="center"
+                                android:transitionName="@string/simple_activity_transition"
+                                android:src="@drawable/main_logo_animate"
+                                android:layout_width="30dp"
+                                android:layout_height="35dp"
+                                tools:ignore="UnusedAttribute" />
+                            <ImageView
+                                android:layout_gravity="center"
+                                android:src="@drawable/docbot_logo2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:ignore="UnusedAttribute" />
+
+
+                        </FrameLayout>
+
+
+
+
+
+
+                    <LinearLayout
+                        android:padding="15dp"
+                        android:focusable="true"
+
+                        android:layout_margin="15dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="bottom"
+                            android:id="@+id/clinicNameError"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:clipToPadding="false">
+
+                            <EditText
+
+                                android:id="@+id/clickName"
+                                style="@style/MyEditTextStyle"
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:singleLine="true"
+                                android:hint="@string/clinic_name"
+                               />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="bottom"
+                            android:id="@+id/mobileNumberError"
+                            android:clipToPadding="false">
+
+
+                            <EditText
+
+                                android:id="@+id/mobilrNumberSIgnup"
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                style="@style/MyEditTextStyle"
+                                android:hint="@string/mobile_number"
+                                />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="bottom"
+
+                            android:id="@+id/signUpEmailError"
+                            android:clipToPadding="false">
+
+                            <EditText
+                                android:id="@+id/emailSignUp"
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                style="@style/MyEditTextStyle"
+
+                                android:inputType="textEmailAddress"
+                                android:hint="@string/email"
+                                />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/signPasswordError"
+                            android:gravity="bottom"
+                            android:clipToPadding="false">
+
+                            <EditText
+                                android:id="@+id/passwordSignup"
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                style="@style/MyEditTextStyle"
+                                android:singleLine="true"
+                                android:hint="@string/password"
+                                />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <LinearLayout
+                            android:id="@+id/signUp"
+                            android:background="@drawable/com_button_logo"
+                            android:layout_marginTop="20dp"
+                            android:layout_width="150dp"
+                            android:layout_height="40dp">
+
+
+                                <TextView
+                                    android:textColor="@color/white"
+                                    android:textStyle="bold"
+                                    android:textSize="18sp"
+                                    android:gravity="center"
+                                    android:text="@string/sign_up"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"/>
+
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_marginTop="20dp"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:textStyle="bold"
+                                android:textColor="@color/text_color"
+                                android:text="@string/already_a_member"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:id="@+id/loginFromSignup"
+                                android:textStyle="bold"
+                                android:textColor="@color/flutter_blue"
+                                android:text="@string/log_in"
+                                android:paddingLeft="10dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

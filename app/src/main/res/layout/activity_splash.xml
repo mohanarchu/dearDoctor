@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/splash2"
+    android:layout_height="match_parent"
+    tools:context=".Splash">
+
+    <ImageView
+        android:transitionName="@string/simple_activity_transition"
+        android:id="@+id/mainLogo"
+        android:src="@drawable/main_logo_animate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UnusedAttribute" />
+
+
+
+</LinearLayout>

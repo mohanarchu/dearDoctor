@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">DearDoctor</string>
+    <string name="title_activity_main">DateTimePicker Example</string>
+    <string name="selected_time">The time you picked will be shown here.</string>
+    <string name="selected_date">The date you picked will be shown here.</string>
+    <string name="selected_datetime">The date and time you picked will be shown here.</string>
+    <string name="pick_time">Pick Time</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="original_button">Framework Picker</string>
+    <string name="pick_datetime">Pick Date+Time</string>
+    <string name="mode_24_hours">Use 24 hour mode</string>
+    <string name="mode_dark">Use dark theme</string>
+    <string name="mode_custom_accent">Use custom accent</string>
+    <string name="vibrate">Vibrate on touch</string>
+    <string name="dismiss">Dismiss on pause (eg: orientation change)</string>
+    <string name="title">Show a title</string>
+    <string name="show_version_2">Use marshmallow layout</string>
+    <string name="show_year_first">Show the year picker first</string>
+    <string name="enable_seconds">Show seconds picker</string>
+    <string name="enable_minutes">Show minutes picker</string>
+    <string name="limit_times">Limit selectable times</string>
+    <string name="limit_dates">Limit selectable dates</string>
+    <string name="disable_dates">Disable specific dates</string>
+    <string name="disable_times">Disable specific times</string>
+    <string name="highlight_dates">Highlight certain dates</string>
+    <string name="switch_orientation">Switch scroll orientation</string>
+    <string name="default_selection">Use alternative default selection</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="tab_title_time">Time</string>
+    <string name="tab_title_date">Date</string>
+    <string name="tab_title_datetime">Date+Time</string>
+    <string name="clinic_name">Clinic name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="sign_up">Sign up</string>
+    <string name="already_a_member">Already a member ?</string>
+    <string name="log_in">Log in.</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="title_activity_doctor__register">Doctor_Register</string>
+    <string name="upload_photo">Upload \n photo</string>
+    <string name="out">OUT</string>
+    <string name="in">IN</string>
+    <string name="doctor_name">Name</string>
+    <string name="speciality">Speciality</string>
+    <string name="slot_time">Slot Time</string>
+    <string name="open_timing">Open Timing:</string>
+    <string name="save">Save</string>
+    <string name="available_credits">Available Credits:</string>
+    <string name="need_credits">Need Credits?</string>
+    <string name="buy_here">Buy Here</string>
+    <string name="simple_activity_transition">simaActivity</string>
+    <string name="log_in_main">Log in</string>
+    <string name="new_here">New Here ?</string>
+    <string name="sign_up_login">Sign up.</string>
+    <string name="tag_is_center">tagIsCenter</string>
+    <string name="add_doctor">Add Doctor</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forgot_password">Forgot password ?</string>
+    <string name="valid_email">Enter valid email</string>
+    <string name="scroll_to_select">Scroll to Select</string>
+    <string name="scroll_to_discover">Scroll to Discover</string>
+</resources>
